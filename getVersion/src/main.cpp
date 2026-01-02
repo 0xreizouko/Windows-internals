@@ -9,8 +9,8 @@ extern "C" void __stdcall RtlGetVersion(OSVERSIONINFO*);
 
 int main() {
     OSVERSIONINFO osi = { sizeof(osi) };
-    RtlGetVersion(&osi);
-    // GetVersionEx(&osi);
+    // RtlGetVersion(&osi);
+    GetVersionEx(&osi);
     printf("%d.%d.%d\n", osi.dwMajorVersion, osi.dwMinorVersion, osi.dwBuildNumber);
     return 0;
 }
