@@ -4,3 +4,4 @@ project(internals)
 
 add_subdirectory(getVersion)
 add_subdirectory(messageBox)
+add_subdirectory(CreateProcess)
