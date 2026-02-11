@@ -2,7 +2,7 @@
 
 #include<Windows.h>
 #include<stdio.h>
-#include "..\..\mylib\headers\SimpleLibrary.h"
+#include "..\..\SimpleLibrary\headers\SimpleLibrary.h"
 
 #pragma comment(lib, "ntdll.lib")
 
