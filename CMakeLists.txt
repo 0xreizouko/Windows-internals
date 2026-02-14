@@ -9,3 +9,7 @@ add_subdirectory(CreateProcess)
 add_subdirectory(SimpleLibrary)
 
 add_subdirectory(libTest)
+
+add_subdirectory(explicitLinking)
+
+add_subdirectory(terminateProcess)

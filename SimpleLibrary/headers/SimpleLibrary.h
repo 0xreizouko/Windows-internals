@@ -6,4 +6,4 @@
 
 extern SIMPLELIBRARY_API int nSimpleLibrary;
 
-SIMPLELIBRARY_API int Add(int a, int b);
+extern "C" SIMPLELIBRARY_API int Add(int a, int b);
