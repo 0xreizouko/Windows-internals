@@ -47,3 +47,7 @@ cmake --build build --config Release --target <project_name>
 You can always omit `project_name` to build all projects.
 
 To run the project you will find the final exe at `build/<project_name>/<config>/` (e.g: `build/getVersion/Release`). 
+
+## Note about Linking
+
+In order to get linking demos to work, you need to copy the dll produced in `./build/SimpleLibrary/Debug/` to the same folder of the executable generated in your project `./build/${PROEJCT_NAME}/Debug/`.
