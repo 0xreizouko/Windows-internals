@@ -13,3 +13,7 @@ add_subdirectory(libTest)
 add_subdirectory(explicitLinking)
 
 add_subdirectory(terminateProcess)
+
+add_subdirectory(SegmentRegisters)
+
+add_subdirectory(Hello_World)
